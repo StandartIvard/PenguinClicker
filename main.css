@@ -1,0 +1,211 @@
+body {
+  background-color: yellow;
+  margin: 0;
+  font-family: 'Courier New';
+}
+.scores {
+  font-size: 1.5rem;
+  border: 2px #000 solid;
+  width: 250px;
+  height: 55px;
+  padding: 0 0 0 5px;
+}
+
+#kvadrat{
+ border: 2px #000 solid;
+ width: 600px;
+ height: 200px;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ background-color: white;
+}
+
+#cel{
+  right: 0;
+  top: 0;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.scores p {
+  margin: 0;
+  line-height: 55px;
+  font-weight: bold;
+}
+#design {
+  width: 250px;
+  margin: 20px 0 0 5px;
+  display: inline-block;
+}
+#design button {
+    border: 1px #000 solid;
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+#design button:hover {
+  background-color: red;
+}
+
+#clickButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#shops{
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  height: 300px;
+}
+
+#shops button {
+    border: 1px #000 solid;
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+#shops button:hover {
+  background-color: red;
+}
+
+#delete{
+  border: 1px #000 solid;
+  margin: 10px 0 0 0;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s linear;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#delete:hover {
+  background-color: orange;
+
+}
+.buttons {
+  border: none;
+  display: inline-block;
+}
+
+#delete {
+  margin-left: 5%;
+}
+
+#die {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 300px;
+}
+
+
+.clicked {
+animation-duration: 0.6s;
+animation-name: angry;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes angry {
+from 0% {
+transform: translate(0px,0px);
+}
+3.33333% {
+transform: translate(-0.18923px,1.45485px);
+}
+6.66667% {
+transform: translate(-0.84296px,-1.32524px);
+}
+10% {
+transform: translate(0.67971px,1.00422px);
+}
+13.3333% {
+transform: translate(-0.5056px,0.83616px);
+}
+16.6667% {
+transform: translate(1.31368px,-0.51401px);
+}
+20% {
+transform: translate(-1.21184px,1.49193px);
+}
+23.3333% {
+transform: translate(1.09065px,-0.21259px);
+}
+26.6667% {
+transform: translate(-1.49916px,0.56159px);
+}
+30% {
+transform: translate(1.48086px,1.21228px);
+}
+33.3333% {
+transform: translate(-1.43889px,-1.152px);
+}
+36.6667% {
+transform: translate(1.35914px,1.34835px);
+}
+40% {
+transform: translate(-1.42834px,0.3091px);
+}
+43.3333% {
+transform: translate(1.47472px,-1.49889px);
+}
+46.6667% {
+transform: translate(-0.92402px,1.4416px);
+}
+50% {
+transform: translate(1.0657px,-0.75306px);
+}
+53.3333% {
+transform: translate(-1.19035px,-1.07484px);
+}
+56.6667% {
+transform: translate(0.28828px,0.79337px);
+}
+60% {
+transform: translate(-0.47167px,-1.42789px);
+}
+63.3333% {
+transform: translate(0.64753px,-0.09795px);
+}
+66.6667% {
+transform: translate(0.41006px,-0.26292px);
+}
+70% {
+transform: translate(-0.22477px,-1.3683px);
+}
+73.3333% {
+transform: translate(0.03588px,0.92931px);
+}
+76.6667% {
+transform: translate(-1.01937px,-1.18398px);
+}
+80% {
+transform: translate(0.8724px,-0.60494px);
+}
+83.3333% {
+transform: translate(-0.71151px,1.4786px);
+}
+86.6667% {
+transform: translate(1.40734px,-1.49607px);
+}
+90% {
+transform: translate(-1.33062px,0.46957px);
+}
+93.3333% {
+transform: translate(1.23264px,1.26738px);
+}
+96.6667% {
+transform: translate(-1.48975px,-1.03867px);
+}
+100% {
+transform: translate(0,0);
+}
+}
